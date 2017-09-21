@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width:970px;
+    height:700px;
+    background-color: #294C74;
+    display: block;
+}
+/*start main______________________________________________________________________*/
+    #main{
+        width:961px;
+        height:391px;
+        border-style: groove;
+        border-color: #4475A8;
+        display: block;
+    }
+        #text_size{
+            display: block;
+            margin-left: 750px;
+            height: 20px;
+            color: white;
+        }
+            #text_size a{
+                color: #D4BC28;
+            }
+            #text_size span{
+                color: black;
+            }
+        #header{
+            width:961px;
+            height:110px;
+        }
+            #header img{
+                height: 92px;
+                margin-left: 25px;
+                display: inline-block;
+            }
+            #search_bar{
+                height:40px;
+                width:245px;
+                vertical-align: top;
+                display: inline-block;
+                padding: 5px 10px;
+                border-radius: 5px;
+                background: #464646;
+                box-shadow: 3px 3px #31353A;
+                margin-left: 335px;
+                margin-top: 9px;
+            }
+                #bar{
+                    margin-top: 3px;
+                    margin-left: 15px;
+                    height: 30px;
+                    width: 117px;
+                    padding-left: 58px;
+                }
+                #button{
+                    color: white;
+                    height: 26px;
+                    width: 35px;
+                    background-color: #294C74;
+                    vertical-align: middle;
+                    border-radius: 5px;
+                    border-color: silver;
+                    box-shadow: 2px 2px #31353A;
+                }
+
+/*End of header*/
+/*start of nav_bar*/
+
+        #nav_bar{
+            width: 865px;
+            height: 40px;
+            background: #3F71A8;
+            margin: 0px auto;
+            margin-left: 75px;
+            border-radius: 5px;
+            color: white;
+            box-shadow: 3px 3px #31353A;
+            text-align: center;
+        }
+            #nav_bar li{
+                display: inline;
+                margin: 0 22px;
+                margin-top: 7px;
+                text-align: center;
+                position: relative;
+                display: inline-block;
+            }
+            #nav_bar a{
+                text-decoration: none;
+                font-family: helvetica;
+                font-size: 22px;
+                color: white;
+            }
+
+
+
+/*End of nav_bar*/
+/*Start of guide*/
+    #guide{
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 28px;
+        margin-left: 75px;
+        width: 200px;
+        height: 233px;
+        text-align: center;
+
+    }
+    #guide ul{
+        list-style: none;
+        padding-top: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        list-style-position: inside;
+    }
+    #guide li{
+        margin-top: 5px;
+        padding-left: 1em;
+        text-indent:-1em;
+    }
+    #guide li:before {
+        content: ">>";
+        padding-right: 5px;
+        color: #D4BC28;
+        font-size: 10px;
+    }
+
+    #guide a{
+        font-size: 17px;
+        font-family: helvetica;
+        vertical-align: middle;
+        color: white;
+    }
+/*End of guide*/
+/*start mantra*/
+
+    #mantra{
+        height: 232px;
+        width:663px;
+        display: inline-block;
+        margin-top: 28px;
+        vertical-align: top;
+        text-align: center;
+    }
+        #mantra #first_block{
+            margin-right: 22px;
+            margin-top: 11px;
+            margin-left: 13px;
+            font-family: helvetica;
+            font-size: 13px;
+            color: white;
+        }
+        #mantra #second_block{
+            margin-top: 15px;
+            font-style: italic;
+            font-family: helvetica;
+            color: #D4BC28;
+            font-size: 17px;
+        }
+            #zen{
+                margin-top: 10px;
+                color: white;
+                font-style: normal;
+                font-size: 16px;
+            }
+            #second_block p{
+                margin-bottom:5px;
+
+            }
+/*Start sub_______________________________________________________________________*/
+    #sub{
+        height: 200px;
+        width: 970px;
+        background-color: white;
+        : center;
+
+    }
+/*start buckets*/
+        .buckets{
+            height: 180px;
+            width: 365px;
+            margin-top: 14px;
+            border-top: 6px solid #71A0D1;
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+
+        }
+
+        .margins{
+            width: 310px;
+            margin-right: 187px;
+            vertical-align: top;
+        }
+            #getting_started{
+                margin-left: 158px;
+
+            }
+
+            #Applications{
+                margin-left: 20px
+            }
+                .bucket_title{
+                    font-family: helvetica;
+                    font-size: 18px;
+                    color: black;
+                    margin-bottom: 5px
+                }
+                .bucket_info{
+                    font-family: helvetica;
+                    font-size: 14px;
+                    color: black;
+                    margin-bottom: 5px;
+                }
+                    .bucket_info a{
+                        text-decoration: none;
+                        color: #7BAAD9;
+                    }
+                .list{
+                    display: inline-block;
+                    width: 247px;
+                    margin-left: 17px;
+
+                }
+
+                .list ul{
+                    list-style: square;
+
+                }
+
+
+                .list a{
+                    text-decoration: none;
+                    color: #7BAAD9;
+                }
+/*End sub_________________________________________________________________________*/
+
+    #footer{
+        height: 100px;
+        width: 970px;
+        background: linear-gradient(#294C74,#376AA7)
+    }
+        #more{
+            width:auto;
+            text-align: center;
+            font-family: helvetica;
+            font-size: 18px;
+            padding-top:50px;
+
+        }
+            #more a{
+                text-decoration: none;
+                color: #7BAAD9;
+                margin: 0 30px;
+
+            }
+        #copywright{
+            width: auto;
+            text-align: center;
+            font-family: helvetica;
+            font-size: 9px;
+            padding-top: 17px;
+            color: #7BAAD9;
+        }
